@@ -1,7 +1,10 @@
 @import "reset.css";
+/*index*/
+@import "index.css";
+
 @import "layout.css";
 @import "sidebar.css";
-@import "content.css";
 @import "menubar.css";
+@import "content.css";
+@import "gallery.css";
 @import "responsive.css";
-@import "gallery.css"
