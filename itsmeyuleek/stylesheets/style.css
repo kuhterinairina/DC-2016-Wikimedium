@@ -1,10 +1,15 @@
 @import "reset.css";
-/*index*/
-@import "index.css";
+/*posts*/
+@import "posts.css";
 
-@import "layout.css";
 @import "sidebar.css";
 @import "menubar.css";
+
+/*post*/
+@import "layout.css";
 @import "content.css";
 @import "gallery.css";
 @import "responsive.css";
+
+@import "social-likes_birman.css";
+@import "share.css";

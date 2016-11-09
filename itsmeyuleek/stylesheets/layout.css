@@ -31,3 +31,17 @@ a {
 text-decoration: none;
 color: inherit;
 }
+
+body.posts {
+  background-color: #FAFAFA;
+}
+
+body.posts .menubar {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 768px;
+}
