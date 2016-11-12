@@ -3,7 +3,13 @@
 
 @import'layout.css';
 @import'menubar.css';
+
+@import'posts.css';
+
 @import'gallery.css';
 @import'content.css';
 @import'sidebar.css';
 @import'responsible.css';
+
+@import'social-likes_birman.css';
+@import'share.css';

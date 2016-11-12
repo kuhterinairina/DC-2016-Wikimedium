@@ -2,14 +2,46 @@
   box-sizing: border-box;
 }
 
-body {
+ body {
   min-width: 768px;
-  font-family: "PT Sans",sans-serif;
+  font-family: 'PT Sans',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*background-image: url(../images/dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  letter-spacing: -0.5px;*/
+/*}
+
+  h1,
+  h2,
+  h3,
+  h1 + p {
+  letter-spacing: 0.5px;
 }
 
+p {
+  letter-spacing: -0.05px;*/
+}
+
+/*конец хака*/
+
 a {
-  text-decoration: none;
-  color:inherit;
+text-decoration: none;
+color: inherit;
+}
+
+body.posts {
+  background-color: #FAFAFA;
+}
+
+body.posts .menubar {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 768px;
 }
