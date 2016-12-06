@@ -6,17 +6,16 @@
   display: block;
   width: 740px;
   margin: 10px auto;
-  background-color: white;
   padding: 20px;
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.1);
+  background-color: white;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
   border-radius: 5px;
 }
 
 .postsFeed figure {
-  height: 200px;
-  width: 700px;
   margin-bottom: 31px;
-  background-image: url(../images/narkomfin.jpg);
+  width: 700px;
+  height: 200px;
   background-size: cover;
   background-position: center;
 }
@@ -27,12 +26,12 @@
   font-size: 28px;
   font-weight: bold;
   line-height: 34px;
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0,0,0,.8);
 }
 
 .postsFeed p {
   margin: 7px 0 10px;
   font-size: 22px;
   line-height: 32px;
-  color: rgba(0, 0, 0, .4);
+  color: rgba(0,0,0,.4);
 }

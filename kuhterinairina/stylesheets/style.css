@@ -1,17 +1,20 @@
-@import'reset.css';
-@import'https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&subset=cyrillic ' ;
+@import 'reset.css';
+@import 'https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&subset=cyrillic';
+@import 'social-likes_birman.css';
 
-@import'layout.css';
-@import'menubar.css';
+@import 'layout.css';
+@import 'menubar.css';
+@import 'share.css';
+@import 'ui.css';
 
-@import'posts.css';
+/* landing */
+@import 'landing.css';
 
-@import'gallery.css';
-@import'content.css';
-@import'sidebar.css';
-@import'responsible.css';
+/* posts */
+@import 'posts.css';
 
-@import'social-likes_birman.css';
-@import'share.css';
-@import'landing.css';
-@import'ui.css'
+/* post */
+@import 'sidebar.css';
+@import 'content.css';
+@import 'gallery.css';
+@import 'responsive.css';

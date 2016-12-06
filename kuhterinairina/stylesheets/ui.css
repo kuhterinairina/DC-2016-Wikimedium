@@ -5,15 +5,17 @@
   border-style: solid;
   text-align: center;
 }
+
 .white {
   background-color: white;
-  border-color: : 1px solid rgba(0,0,0,.2);
-  color: rgba(0,0,0,.6)
+  border-color: rgba(0,0,0,.2);
+  color: rgba(0,0,0,.6);
 }
 
 .green {
   background-color: #64f364;
-  background-image:linear-gradient(to bottom, #64f364 2%,#2bd42b 7%,#01a401 95%,#006900 100%);
+  background-image: -webkit-linear-gradient(top, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%);
+  background-image: linear-gradient(to bottom, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%);
   border-color: #00C000;
   color: white;
 }
@@ -23,25 +25,24 @@
   height: 40px;
   line-height: 40px;
   font-size: 15px;
-
 }
 
 .large {
   width: 300px;
   height: 50px;
   line-height: 50px;
-  font-family: 'PT Sans Caption',sans-serif;
-  font-weight: bold;
   font-size: 17px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1180px) and (min-width: 911px) {
+
   .small {
     width: 180px;
     height: 30px;
     line-height: 30px;
     font-size: 11px;
-
   }
 
   .large {
@@ -50,4 +51,5 @@
     line-height: 36px;
     font-size: 12px;
   }
+
 }
